@@ -22,7 +22,7 @@ class DefaultRerouteControllerInterface: RerouteControllerInterface {
     func cancel() {
         nativeInterface.cancel()
     }
-    
+
     func setOptionsAdapterForRouteRequest(_ routeRequestOptionsAdapter: (any RouteOptionsAdapter)?) {
         nativeInterface.setOptionsAdapterForRouteRequest(routeRequestOptionsAdapter)
     }
