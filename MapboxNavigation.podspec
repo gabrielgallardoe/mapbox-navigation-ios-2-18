@@ -36,7 +36,9 @@ Pod::Spec.new do |s|
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
+  #s.resource_bundle = {'MapboxNavigationResources' => ['Sources/MapboxNavigation/Resources/*/*', 'Sources/MapboxNavigation/Resources/*']}
   s.resource_bundle = {'MapboxNavigationResources' => ['Sources/MapboxNavigation/Resources/*/*', 'Sources/MapboxNavigation/Resources/*']}
+  #s.resources = ['Sources/MapboxCoreNavigation/Resources/MBXInfo.plist']
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
