@@ -55,7 +55,7 @@ let package = Package(
             exclude: ["Info.plist"],
             resources: [
                 .copy("Resources/MBXInfo.plist"),
-                .copy("Resources/PrivacyInfo.xcprivacy")
+              //  .copy("Resources/PrivacyInfo.xcprivacy")
             ]),
         .target(
             name: "TestHelper",
